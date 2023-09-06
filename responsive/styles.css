@@ -1,0 +1,19 @@
+* {
+    background-color: burlywood;
+}
+
+#imgDiv {
+    
+    display: flex;
+    
+}
+
+.column {
+    float: left;
+}
+
+@media (max-width: 800px) {
+    #imgDiv {
+        flex-direction: column;
+    }
+}
